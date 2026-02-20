@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #3B82F6;
+  --secondary: #60A5FA;
+  --cta: #F97316;
+  --background: #F8FAFC;
+  --text: #1E293B;
+  --border: #E2E8F0;
+}
+
+.dark {
+  --background: #0f172a;
+  --text: #f1f5f9;
+  --border: #334155;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.arabic-text {
+  font-family: 'Amiri', serif;
+  direction: rtl;
+  text-align: right;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.dark body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
